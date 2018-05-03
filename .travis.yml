@@ -23,6 +23,6 @@ before_script:
   - export PATH=$PATH:$(pwd)  
   - export PYTHONPATH=$PYTHONPATH:$(pwd)  
 script:
-  - coverage run --source=scripts setup.py test
+  - coverage run setup.py test
 after_success:
   - coveralls
