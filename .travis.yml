@@ -17,6 +17,7 @@ before_install:
   - if [ "$TRAVIS_OS_NAME" == "osx" ]; then brew upgrade python; fi
 cache: pip
 install:
+  - pip3 install coveralls
   - pip3 install -r requirements.txt
 before_script:
   - export PATH=$PATH:$(pwd)  

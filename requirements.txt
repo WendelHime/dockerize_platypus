@@ -1,3 +1,6 @@
 setuptools
 pytest
+argparse
+subprocess
+logging
 docker
