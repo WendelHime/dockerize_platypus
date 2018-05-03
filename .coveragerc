@@ -1,0 +1,6 @@
+[report]
+
+exclude_lines =
+    if __name__ == .__main__.:
+    def dump_db(dbuser, dbname, filepath):
+    def generate_docker_entrypoint(dbname, organism):
