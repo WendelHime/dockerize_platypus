@@ -1,4 +1,4 @@
-import scripts.dockerize_platypus
+import scripts.dockerize_platypus as dockerize_platypus
 
 
 organism = 'Leuconostoc'
