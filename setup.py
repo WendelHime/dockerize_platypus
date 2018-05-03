@@ -27,7 +27,7 @@ setup(
     project_urls={
         "Travis CI": "https://travis-ci.org/WendelHime/dockerize_platypus",
         "Coveralls": "https://coveralls.io/github/WendelHime/dockerize_platypus?branch=master",
-        "Documentation": "http://dockerize_platypus.readthedocs.io/en/latest/?badge=latest",
+        "Documentation": "http://dockerize-platypus.readthedocs.io/en/latest/?badge=latest",
         "Source": "https://github.com/WendelHime/dockerize_platypus"
         },
     classifiers=[
