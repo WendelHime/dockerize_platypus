@@ -1,6 +1,6 @@
 [run]
 source = 
-    scripts/*
+    scripts/dockerize_platypus.py
 
 [report]
 
