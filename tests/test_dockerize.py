@@ -20,7 +20,6 @@ def test_create_image():
     assert organism in dockerfile
     assert filepath in dockerfile
     assert database in dockerfile
-    assert dbname in dockerfile
     assert init in dockerfile
     assert 'ENTRYPOINT' in dockerfile
     assert 'CMD' in dockerfile

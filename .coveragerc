@@ -1,8 +1,5 @@
-[run]
-source = 
-    scripts/dockerize_platypus.py
-
 [report]
+
 
 exclude_lines =
     if __name__ == .__main__.:
