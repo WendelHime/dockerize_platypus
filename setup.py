@@ -5,8 +5,10 @@ from setuptools import setup, find_packages
 with open("requirements.txt") as f:
     REQUIREMENTS = f.read().split("\n")
 
+
 with open("README.md", 'r') as f:
     DESCRIPTION = f.read()
+
 
 setup(
     name='Dockerize-Platypus',
@@ -14,6 +16,9 @@ setup(
     description='Build a docker image using Report_HTML_DB results from EGene2',
     long_description=DESCRIPTION,
     license='GNU GPL',
+    include_package_data=True,
+    data_files=[
+        ('share/dockerize_platypus/example', [ 'example/%s' % file for file in os.listdir('example') ])],
     packages=find_packages(),
     install_requires=REQUIREMENTS,
     setup_requires=['pytest-runner'],
